@@ -1,0 +1,16 @@
+{
+  "name": "cashu-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to check the status of Cashu Tokens, manage Cashu wallet, and handle Lightning addresses.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@cashu/cashu-ts": "^1.0.0-rc.3",
+    "axios": "^1.6.7",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.65.1",
+    "qrcode": "^1.5.0"
+  }
+}
